@@ -1,0 +1,174 @@
+
+.navWrapper { 
+    height: 205px;
+}
+.buttonWrapper {
+    margin: 0px 50px;
+    padding: 15px 0 20px 0px;
+    border-bottom: 1px solid #999999;
+}
+.button {
+    text-align: center;
+    padding: 10px;
+    border: none;
+    background: #0078D6;
+    color: #ffffff;
+}
+.buttonSegment {
+    margin-left: 8px;
+    width: 120px;
+}
+
+.ClrFilterbtn {
+    background: none;
+    border: none;
+    float:right;
+    margin-top:15px;
+}
+.ClrFilterbtn i {
+    color: #0078D6;
+}
+.advFilterForm {
+    margin-left: 50px;
+}
+.advFilterForm-chileDiv {
+    float: left;
+    padding-top: 15px;  
+    width: 500px;
+}
+.inputBox {
+    margin-top: 10px;
+    padding-left: 15px; 
+    height: 30px;
+    width: 450px;
+}
+.advFilterbtn-wrapper{
+    width: 165px;
+}
+#advFilterbtn-clear, #advFilterbtn-filter {
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 25px;
+    border: none;
+    color: #ffffff;
+    margin-top: 15px;
+}
+#advFilterbtn-filter {
+    float: right;
+    background: #0078D6;
+}
+section {
+    padding-top: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+.dropbtn {
+    border: none;
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.dropbtn:hover {
+    background: #eaeaea;
+}
+.dropDown-content {
+    display: none;  
+    position: absolute;
+    /* margin-top: 5px; */
+    margin-left: 1px;
+    background: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 0px 1px 1px #999999;
+    z-index: 1;
+}
+.dropDown-content li {
+    padding: 10px;
+    font-weight: normal;
+} 
+.dropDown-content li:hover {
+    background: #eaeaea; 
+}
+.dropDown:hover .dropDown-content {
+    display: block;
+}
+
+.blueText-dropDown {
+    color: #0078D6;
+}
+
+/*segment-id*/
+div.dropDown-content {
+    padding: 5px;
+    min-width: 140px;
+}
+#filterSegmentID-input {
+    padding: 3px;
+    width: 140px;
+    font-size: 12px;
+}
+.segmentIDbtn-wrapper {
+    margin-top: 5px;
+}
+#segmentIDfilter-clear, #segmentIDfilter-filter {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 20px;
+    border: none;
+    color: #ffffff;
+}
+#segmentIDfilter-filter {
+    float: right;
+    background: #0078D6;
+}
+
+/*product menu*/
+.sub-dropDown {
+    position: relative;
+}
+.sub-dropDown-content {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    min-width: 120px;
+    box-shadow: 0px 0px 1px 1px #999999;
+    margin-left: 150px;
+    margin-top: -25px;
+    z-index: 2;
+}
+.sub-dropDown-content li:hover{
+    background: #eaeaea;
+}
+.sub-dropDown:hover .sub-dropDown-content {
+    display: block;
+}
+
+/* awsome font style */
+.dropbtn i {
+    color: #999999;
+    font-size: 20px;
+}
+p.blueText {
+    font-weight: normal;
+    padding: 10px 0 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

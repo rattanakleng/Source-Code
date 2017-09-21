@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Iris Studio</title>
+            <link rel="stylesheet" type="text/css" href="./css/reset.css">
+            <link rel="stylesheet" type="text/css" href="./css/global.css">
+            <link rel="stylesheet" type="text/css" href="./css/page5.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+            <header>
+                <div class="headContainer">
+                    <div class="head_floatLeft">
+                        <div id="bars">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </div>
+                        <div class="irisStudioContainer">
+                            <h1>Iris Studio</h1>
+                        </div>
+                        <div>
+                            <h3>Segments</h3>
+                        </div>
+                    </div>
+                    <div class="head_floatRight">
+                        <div class="userSymbol">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                        </div>                       
+                        <div class="questionMark">
+                            <i class="fa fa-question" aria-hidden="true"></i>
+                        </div>
+                        <div class="alertSymbol">
+                            <i class="fa fa-bell-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <nav>
+                <div class="navWrapper">
+                    <div class="buttonWrapper">
+                        <button class="buttonAdvFilters button" type="button">
+                            <i class="fa fa-filter" aria-hidden="true"></i> Advance Filters
+                        </button>  
+                        <button class="buttonSegment button" type="button">
+                            <i class="fa fa-plus" aria-hidden="true"></i>  Segment
+                        </button>
+                        <button class="ClrFilterbtn" type="button"><i class="fa fa-times" aria-hidden="true"></i> Clear all filters</button>
+                    </div>
+                    <div>
+                        <form class="advFilterForm">
+                            <div class="advFilterForm-chileDiv">
+                                <lable>Contains Keywords</lable><br/>
+                                <input type="text" id="keywordFilter" name="keywordFilter" placeholder="Enter keywords" class="inputBox">
+                            </div>
+                            <div class="advFilterForm-chileDiv">
+                                <lable>Contains Attribute</lable><br/>
+                                <select name="attributeList" class="inputBox">
+                                    <option value="#">Select attribute</option>
+                                    <option value="#">attribute 2</option>
+                                    <option value="#">attribute 3</option>
+                                    <option value="#">attribute 4</option>
+                                </select>
+                            </div>
+                            <div class="advFilterbtn-wrapper">
+                                <button id="advFilterbtn-clear" name="advFilterbtn-clear">Clear</button>
+                                <button id="advFilterbtn-filter" name="advFilterbtn-filte">Filter</button>
+                            </div>     
+                        </form>
+                    </div>                   
+                </div>
+            </nav>
+            <section>
+                <form>
+                    <table>
+                        <thead> 
+                            <tr>
+                                <th class="col-segmentName">
+                                    <ul>
+                                        <li class="dropDown">
+                                            <!-- <a href="#">SEGMENT NAME <i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
+                                            <button class="dropbtn" type="button">SEGMENT NAME <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                            <ul class="dropDown-content">
+                                                <li><a href="#">Link 1</a></li>
+                                                <li><a href="#">Link 2</a></li>
+                                                <li><a href="#">Link 3</a></li>    
+                                            </ul>    
+                                        </li>
+                                    </ul>    
+                                </th>
+                                <th>
+                                    <ul>
+                                        <li class="dropDown">
+                                            <button class="dropbtn" type="button">SEGMENT ID <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                            <div class="dropDown-content">
+                                                <form>
+                                                    <input type="text" id="filterSegmentID-input" name="filterSegmentID-input" placeholder="Filter by Segment ID">
+                                                    <div class="segmentIDbtn-wrapper">
+                                                        <button id="segmentIDfilter-clear" name="segmentIDfilter-clear">Clear</button>
+                                                        <button id="segmentIDfilter-filter" name="segmentIDfilter-filte">Filter</button>
+                                                    </div> 
+                                                </form>
+                                            </div>    
+                                        </li>
+                                    </ul>    
+                                </th>
+                                <th>
+                                    <ul>
+                                        <li class="dropDown">
+                                            <button class="dropbtn" type="button">AUTHOR <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                            <ul class="dropDown-content">
+                                                <li><a href="#">Link 1</a></li>
+                                                <li><a href="#">Link 2</a></li>
+                                                <li><a href="#">Link 3</a></li>    
+                                            </ul>    
+                                        </li>
+                                    </ul>    
+                                </th>
+                                <th>
+                                    <ul>
+                                        <li class="dropDown">
+                                            <button class="dropbtn" type="button">LINE OF BUSINESS <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                            <ul class="dropDown-content">
+                                                <li><a href="#">Link 1</a></li>
+                                                <li><a href="#">Link 2</a></li>
+                                                <li><a href="#">Link 3</a></li>    
+                                            </ul>    
+                                        </li>
+                                    </ul>    
+                                </th>
+                                <th>
+                                    <ul>
+                                        <li class="dropDown">
+                                            <button class="dropbtn" type="button">PRODUCT <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                            <ul class="dropDown-content">
+                                                <li><a href="#" class="blueText-dropDown">Filter</a></li>
+                                                <li><a href="#">AppSource</a></li>
+                                                <li><a href="#">Dynamics</a></li>
+                                                <li><a href="#">OneDrive</a></li>
+                                                <li><a href="#">Office Online</a></li>
+                                                <li><a href="#">PowerBI</a></li>
+                                                <li><a href="#">Windows</a></li>
+                                                <hr>
+                                                <li class="sub-dropDown">
+                                                    <a href="#">Sort by <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                                    <ul class="sub-dropDown-content">
+                                                        <li><a href="#">Default</a></li>
+                                                        <li><a href="#">Name A-Z</a></li>
+                                                        <li><a href="#">Name Z-A</a></li>
+                                                    </ul>
+                                                </li>                                                   
+                                            </ul>    
+                                        </li>
+                                    </ul>    
+                                </th>
+                                <th colspan="2">
+                                    <ul>
+                                        <li class="dropDown">
+                                            <button class="dropbtn" type="button">STATE <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                            <ul class="dropDown-content">
+                                                <li><a href="#">Link 1</a></li>
+                                                <li><a href="#">Link 2</a></li>
+                                                <li><a href="#">Link 3</a></li>    
+                                            </ul>    
+                                        </li>
+                                    </ul>    
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i> 
+                                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="blueText">Aaoiglk;jlieojli;gi</td>
+                                <td>SM4U17SNK3WN9</td>
+                                <td class="blueText">msalias</td>
+                                <td>Consumer</td>
+                                <td>Windows</td>
+                                <td>Active</td>
+                                <td>
+                                    <i class="fa fa-files-o" aria-hidden="true"></i>  
+                                     <i class="fa fa-pencil" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </section> 
+        </body>
+    </html>

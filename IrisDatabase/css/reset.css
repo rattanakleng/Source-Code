@@ -1,0 +1,45 @@
+/* @font-face {
+    font-family: 'myFont';
+    src: url('/fonts/SourceSansPro-Regular.ttf') format('truetype');
+} */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+th, td {
+    border-collapse: collapse;
+    text-align: left;
+}
+th {
+    border-bottom: 2px solid;
+    padding: 15px 20px 5px 5px;
+}
+td {
+    padding: 15px 20px 5px 20px;
+}
+.blueText, td {
+    border-bottom: 1px solid #000000;
+}
+.blueText {
+    color: #0078D6;
+}
+ul, li{
+    list-style-type: none;
+    /* text-decoration: none;
+    padding: 0;
+    ma */
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+button {
+    border: none;
+    background-color: none;
+    padding: 5px 20px;
+    text-align: center;
+}
+

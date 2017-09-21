@@ -1,0 +1,180 @@
+
+.greySegment {
+    color: #999999;
+}
+.navWrapper { 
+    background: #eaeaea;
+    width: 90%;
+    height: 70px;
+    margin: auto;
+}
+.buttonWrapper {
+    padding: 15px 0 20px 50px;
+}
+.buttonSegment {
+    margin-left: 8px;
+    width: 120px;
+    background: #0078D6;
+    color: #ffffff;
+}
+.queryStage {
+    padding-top: 15px;
+}
+form {
+    font-weight: bold;
+}
+#usertypeWrapperDiv {
+    height: 60px;
+}
+#usertypeWrapperDiv div {
+    width: 200px;
+    float: left; 
+    margin-right: 10px;
+} 
+#usertypeWrapperDiv button {
+    float: right;
+     margin-top: 30px; 
+}
+.spanContainer {
+    padding: 25px 0;
+}
+#structureQuery {
+    margin-right: 30px;
+    width: 80px;
+    border-bottom: 2px solid #0078D6;
+}
+.sideNavigation {
+    float: left;
+    width: 240px;
+}
+.headerRowContainer {
+    background: #eaeaea;
+}
+.btnInheaderRow {
+    background: #eaeaea;
+    padding-left: 10px;
+    padding-right: 25px;
+    font-weight: bold;    
+}
+.btnInheaderRow:hover {
+    background: #999999;
+}
+.btnExpandMenu {
+    padding: 15px 0 10px 10px;
+}
+.sideNavMenu {
+    overflow: auto;
+}
+.dropDown-content input[type=text] {
+    width: 130px;
+}
+.buttonContainer {
+    height: 25px;
+}
+.btnClear {
+    float: left;
+}
+.btnNext {
+    float: right;
+}
+.qeuryInput {
+    float: right;
+    width: 70%;
+    /* border: 1px solid; */
+}
+.dropbtn {
+    background: none;
+    font-weight: normal; 
+    display: block;
+}
+.dropDown-content {
+    margin-left: 25px;
+}
+.btnExpandMenu {
+    color: #999999;
+    font-size: 12px;
+    background: none;
+}
+
+/* Section queryInput */
+section {
+    padding-top: 0px;
+}
+.queryInput {
+    float: right;
+    /* border: 1px solid black; */
+    width: 75%;
+}
+.headerRowContainer {
+    background-color: #eaeaea;
+    height: 27px; 
+}
+.btnInheaderRow {
+    background-color: none;
+}
+.contentInhederRowLeft {
+    float: left;
+}
+.contentInhederRowRight {
+    float: right;
+}
+.contentInhederRowRight i {
+    color: #0078D6;
+}
+.dataInputWrapper1, .dataInputWrapper2, .dataInputWrapper3{
+    margin: 15px 5px 0 10px;
+    float: left;
+}
+.dataInputWrapper1 {
+    width: 230px;
+}
+.dataInputWrapper2 {
+    width: 130px;
+}
+.dataInputWrapper3 {
+    width: 160px;
+}
+input {
+    width: 130px;
+    height: 25.5px;
+    margin: 10px 7px 0 0;
+}
+ .queryInputWrapper {
+    height: 160px;
+} 
+.methodSelectionRow {
+    background: #0078D6;
+    padding: 8px 0;
+    color: #ffffff;
+}
+.btnInmethodSelectionRow {
+    background: none;
+    color: #ffffff;
+    padding: 0 5px 0 10px;
+}
+hr {
+    display: block;
+    margin-top: 600px;
+    color: #999999;
+}
+.btnContainer {
+    padding-top: 20px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

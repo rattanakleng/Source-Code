@@ -1,0 +1,130 @@
+.buttonWrapper {
+    padding: 15px 0 20px 50px;
+}
+.button {
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+.buttonSegment {
+    margin-left: 8px;
+    width: 120px;
+    background: #0078D6;
+    color: #ffffff;
+}
+section {
+    padding-top: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+.dropbtn {
+    border: none;
+    position: relative;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.dropbtn:hover {
+    background: #eaeaea;
+}
+.dropDown-content {
+    display: none;  
+    position: absolute;
+    /* margin-top: 5px; */
+    margin-left: 1px;
+    background: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 0px 1px 1px #999999;
+    z-index: 1;
+}
+.dropDown-content li {
+    padding: 10px;
+    font-weight: normal;
+} 
+.dropDown-content li:hover {
+    background: #eaeaea; 
+}
+.dropDown:hover .dropDown-content {
+    display: block;
+}
+
+.blueText-dropDown {
+    color: #0078D6;
+}
+
+/*segment-id*/
+div.dropDown-content {
+    padding: 5px;
+    min-width: 140px;
+}
+#filterSegmentID-input {
+    padding: 3px;
+    width: 140px;
+    font-size: 12px;
+}
+.segmentIDbtn-wrapper {
+    margin-top: 5px;
+}
+#segmentIDfilter-clear, #segmentIDfilter-filter {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 20px;
+    border: none;
+    color: #ffffff;
+}
+#segmentIDfilter-filter {
+    float: right;
+    background: #0078D6;
+}
+
+
+/*product menu*/
+.sub-dropDown {
+    position: relative;
+}
+.sub-dropDown-content {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    min-width: 120px;
+    box-shadow: 0px 0px 1px 1px #999999;
+    margin-left: 150px;
+    margin-top: -25px;
+    z-index: 2;
+}
+.sub-dropDown-content li:hover{
+    background: #eaeaea;
+}
+.sub-dropDown:hover .sub-dropDown-content {
+    display: block;
+}
+
+/* awsome font style */
+.dropbtn i {
+    color: #999999;
+    font-size: 20px;
+}
+p.blueText {
+    font-weight: normal;
+    padding: 10px 0 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

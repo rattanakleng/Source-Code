@@ -1,0 +1,78 @@
+
+.greySegment {
+    color: #999999;
+}
+.navWrapper { 
+    background: #eaeaea;
+    width: 90%;
+    height: 70px;
+    margin: auto;
+}
+.buttonWrapper {
+    padding: 15px 0 20px 50px;
+}
+.buttonSegment {
+    margin-left: 8px;
+    width: 120px;
+    background: #0078D6;
+    color: #ffffff;
+}
+section {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+.queryStage {
+    padding-top: 15px;
+}
+
+form {
+    font-weight: bold;
+}  
+ input[type=text],textarea,select {
+    width: 100%;
+    min-width: 100px;
+    padding: 5px;
+} 
+.div_nameDescription {
+    float: left;
+    width: 40%;
+}
+.select_container {
+    float: right;
+    width: 40%;
+}
+select, textarea, input[type="text"] {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+textarea {
+    height: 150px;
+}
+hr {
+    margin-top: 350px;
+    color: #999999;
+}
+.btnContainer {
+    padding-top: 20px;
+    float: right;
+}
+.placeHolderOpt {
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
