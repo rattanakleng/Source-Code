@@ -1,0 +1,20 @@
+@font-face {
+    font-family: segoeuiLight;
+    src: url("../fonts/segoeuil.ttf");
+    src: url("../fonts/segoeui.ttf");
+}
+@font-face {
+    font-family: segoeui;
+    src: url("../fonts/segoeuil.ttf");
+    src: url("../fonts/segoeui.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: segoeui, segoeuiLight, sans-serif, helvetica, arial;
+    font-size: 12pt;
+}
+ul, ol {
+    list-style: none;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="en">
+        <meta name="keywords" content="microsoft store, window apps, apps">
+        <meta name="author" content="Microsoft Corp">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Microsoft Store Online</title>
+         <script type="text/javascript" src="./js/index.js"></script>  
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/asset.css">
+        <link rel="stylesheet" type="text/css" href="./css/global.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">  
+        
+    </head>
+    <body>
+        <header>
+                <nav>
+                    <div class="floatLeft">
+                        <a href="https://www.microsoft.com/en-us/"><img class="imgMainWeblink" src="./images/microsoft-gray.png" alt="Microsoft Logo" /></a>
+                        <ul>
+                            <li class="dropdown">
+                                <button id="storebtn" class="dropbtn btn" type="button" onclick="btnDropdownFunction()">Store</button>
+                                <ul id="storeDropdown" class="dropdownContent">
+                                    <li>Store home</li>
+                                    <li>Devices <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                    <li>Software & Apps <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                    <li>Games & Entertainment <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                    <li>Deals <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                    <li>more <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <button onlick="btnDropdownFunction()" class="dropbtn btn">Products</button><i class="fa fa-angle-down" aria-hidden="true"></i>
+                                <ul id="productDropdown" class="dropdownContent">
+                                    <li>Software & services</li>
+                                    <li>Devices & Xbox</li>
+                                    <li>For business</li>
+                                    <li>For developers & IT pros</li>
+                                    <li>For students & educators</li>
+                                </ul>
+                            </li>
+                        </ul>    
+                        <a class="supportNav" href="https://support.microsoft.com/en-us">Support</a>   
+                    </div>
+                    <div class="floatRight">
+                        <form class"searchForm" action="/actionpPage.php" role="search">
+                            <div class="divSearchInputWrapper">
+                                <input type="text" role="search" name="searchInput" id="searchInput" placeholder="Search Microsoft.com"></input>
+                                <button class="btn btnSignin" type="button" for="searchInput" role="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btnSignin" role="sign in">Sign in</button>
+                    </diV>
+                </nav>
+                <nav class="mainNav">
+                    <button id="storebtn" class="dropbtn btn" type="button" onclick="btnDropdownFunction()">Store</button>
+                    <button id="devicesbtn" class="dropbtn btn" type="button">Devices</button><i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <button id="softAppsbtn" class="dropbtn btn" type="button">Software & Apps</button><i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <button id="gamebtn" class="dropbtn btn" type="button">Games & Entertainment</button><i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <button id="dealbtn" class="dropbtn btn" type="button">Deals</button><i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <button id="moresbtn" class="dropbtn btn" type="button">More</button><i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <button id="storeLocatbtn" class="dropbtn btn" type="button">Store Locations</button>
+                </nav>
+            
+        </header>
+        <div class="bannerWrapper" aria-roledescription="banner">
+            <a href="https://www.microsoft.com/en-us/store/d/surface/8NKT9WTTRBJK/H3CS?icid=%20topstripe_SurfaceProStudent_170802" class="promotionMsg"> Students save 10% on new Surface Pro. SHOP NOW <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </div>
+        <section>
+            <div class="mainBanner">
+                <!-- <img src="./images/laptop.png" alt="Product promotion image">  -->
+                <div class="shoppingLinkWrapper"> 
+                    <h1>Surface Laptop</h1>
+                    <p>Powerfully Beautiful</p>
+                    <button class="btn dealShoppingBtn" type="button">Shop Now <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                </div>                  
+            </div>
+            <div class="mainContentWrapper">
+                <section class="serviceSelection" role="service container">
+                    <div class="serviceListWrapper">
+                        <h1 id="shopCategories">Shop categories</h1>
+                        <a href="https://www.microsoft.com/en-us/store/b/office?icid=Homepage_LeftNav_01_Office_en_US">Office</a>
+                        <a href="https://www.microsoft.com/en-us/store/b/windows?icid=Homepage_LeftNav_02_Windows_en_US">Window</a>
+                        <a href="https://www.microsoft.com/en-us/store/b/surface?Homepage_LeftNav_03_Surface_en_US">Microsoft Surface</a>
+                        <a href="https://www.microsoft.com/en-us/store/b/pc?icid=Homepage_LeftNav_04_PC_en_US">PCs & tablet</a>
+                        <a href="https://www.microsoft.com/en-us/store/b/xbox?icid=Homepage_LeftNav_05_Xbox_en_US">Xbox</a>
+                        <a href="https://www.microsoft.com/en-us/store/b/virtualreality?icid=Homepage_LeftNav_06_VirtualReality_en_US">Virtual and mixed reality</a>
+                        <a href="https://www.microsoft.com/en-us/store/b/student?icid=Homepage_LeftNav_07_Education_en_US">Student deal</a>
+                    </div>
+                    <div class="surfacePlusWrapper">
+                        <a href="https://www.microsoft.com/en-us/store/b/surface-plus?icid=en_us_homepage_whatsnew_1_SurfacePlus_170801"><img class="serviceLinkImg" src="./images/mainmenu/re1am01.jpg" alt="Surface Plus image" /></a>
+                        <a href="https://www.microsoft.com/en-us/store/b/surface-plus?icid=en_us_homepage_whatsnew_1_SurfacePlus_170801"><h1 class="serviceLink">Surface Plus</h1></a>
+                        <p>The ultimate way to own Surface</p>
+                        <a class="serviceLink" href="https://www.microsoft.com/en-us/store/b/surface-plus?icid=en_us_homepage_whatsnew_1_SurfacePlus_170801">LEARN MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="xboxgameWrapper">
+                        <a href="https://www.microsoft.com/en-us/store/collections/XboxConsoles?cat0=devices&icid=en_us_homepage_whatsnew_2_XboxBAB_100801"><img class="serviceLinkImg" src="./images/mainmenu/re1b4qj.jpg" alt="Surface Plus image" /></a>
+                        <a href="https://www.microsoft.com/en-us/store/b/surface-plus?icid=en_us_homepage_whatsnew_1_SurfacePlus_170801"><h1 class="serviceLink">Free game of choice</h1></a>
+                        <p>The ultimate way to own Surface</p>
+                        <a class="serviceLink" href="https://www.microsoft.com/en-us/store/b/surface-plus?icid=en_us_homepage_whatsnew_1_SurfacePlus_170801">LEARN MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="office365Wrapper">
+                        <a href="https://www.microsoft.com/en-us/store/b/office365?icid=en_US_homepage_whatsnew_3_OfficeCompare_170717"><img class="serviceLinkImg" src="./images/mainmenu/RE1v6Du.jpg" alt="Surface Plus image" /></a>
+                        <a href="https://www.microsoft.com/en-us/store/b/surface-plus?icid=en_us_homepage_whatsnew_1_SurfacePlus_170801"><h1 class="serviceLink">Office 365</h1></a>
+                        <p>The ultimate way to own Surface</p>
+                        <a class="serviceLink" href="https://www.microsoft.com/en-us/store/b/surface-plus?icid=en_us_homepage_whatsnew_1_SurfacePlus_170801">LEARN MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>          
+                </section>
+                <nav class="allServiceNav">
+                    <h1>Now trending</h1>
+                    <button class="showAllService btn" type="button">Show all</button>
+                </nav>
+                <section class="currentTrend">
+                    <div class="trendingProductWrapper">
+                        <div class="trendingImgWrapper" aria-roledescription="image wrapper">
+                            <a class="trendingProductLink" href="https://www.microsoft.com/en-us/store/d/surface-book-with-performance-base/8z43qvgw95dn/D69T"><img src="./images/mainmenu/re1hta6.jpg" alt="Surface Book Image" /></a>
+                        </div>
+                        <a class="trendingProductLink" href="https://www.microsoft.com/en-us/store/d/surface-book-with-performance-base/8z43qvgw95dn/D69T"><h1>Surface Book with Performance Base</h1></a>
+                        <ul class="trendingProductFeature">
+                            <li>٠ Built for performance and professional software with 6th Gen Intel Core processor</li>
+                            <li>٠ Unmatched graphics power
+                            <li>٠ 13.5-inch, high-resolution PixelSense Display</li>
+                            <li>٠ Sign in with a smile on Windows 10 Pro</li>
+                        </ul>
+                    </div>
+                    <div class="trendingProductWrapper">
+                        <div class="trendingImgWrapper" aria-roledescription="image wrapper">
+                            <a class="trendingProductLink" href="https://www.microsoft.com/en-us/store/d/xbox-live-gold-membership-digital-code/cfq7ttc0k5zm/0002"><img src="./images/mainmenu/rw6igr.jpg" alt="Xbox Live Membership"><a>
+                        </div>
+                        <a class="trendingProductLink" href="https://www.microsoft.com/en-us/store/d/xbox-live-gold-membership-digital-code/cfq7ttc0k5zm/0002"><h1>Xbox Live Gold Membership (Digital Code)</h1></a>
+                        <p> This Gold membership is your ticket to online gaming and entertainment with friends around the block around the world.</p>
+                    </div>
+                    <div class="trendingProductWrapper">
+                        <div class="trendingImgWrapper" aria-roledescription="image wrapper">
+                            <a class="trendingProductLink" href="https://www.microsoft.com/en-us/store/d/forza-motorsport-7-for-xbox-one/8mp185kp4h3z/ZC53"><img id="forzaImg" src="./images/mainmenu/apps429.jpg" alt="Forza Motorsport 7" /></a>
+                        </div>
+                        <a class="trendingProductLink" href="https://www.microsoft.com/en-us/store/d/forza-motorsport-7-for-xbox-one/8mp185kp4h3z/ZC53"><h1>Forza Motorsport 7 for Xbox One</h1></a>
+                    </div>
+                    <div class="trendingProductWrapper">
+                        <div class="trendingImgWrapper" aria-roledescription="image wrapper">
+                            <a class="trendingProductLink" href="https://www.microsoft.com/en-us/store/d/htc-vive-virtual-reality-system/8rvdr2znjmrn/hp89"><img src="./images/mainmenu/re1mskw.jpg" alt="HTC Vive Image" /></a>
+                        </div>
+                        <a class="trendingProductLink" href="https://www.microsoft.com/en-us/store/d/htc-vive-virtual-reality-system/8rvdr2znjmrn/hp89"><h1>HTC VIVE Virtual Reality System</h1></a>
+                        <ul class="trendingProductFeature">
+                            <li>٠ Virstual reality beyond imagination</li>
+                            <li>٠ Room-scale VR with precise motion tracking</li>
+                            <li>٠ Adjustable hedset for comfortable, clear gameplay</li>
+                            <li>٠ Window 10. Do great things.</li>
+                            <li>٠ Free games: Includes EverestVR and Richie's Plank Experience</li>
+                        </ul>
+                    </div>
+                    <div class="trendingProductWrapper">
+                        <div class="trendingImgWrapper" aria-roledescription="image wrapper">
+                            <a class="trendingProductLink" href="https://controllers.xbox.com/en-US"><img src="./images/mainmenu/re1xsis.jpg" alt="Xbox Design Lab image" /></a>
+                        </div>
+                        <a class="trendingProductLink" href="https://controllers.xbox.com/en-US"><h1>Xbox Design Lab</h1></a>
+                    </div>
+                </section>
+            </div>            
+        </section>
+        <footer>
+            <ul class="footerContn">
+                <li>
+                    <ul>
+                        <li><a class="boldTxt" href="#">What's new</a></li>
+                        <li><a href="#">New Sturface Pro</a></li>
+                        <li><a href="#">Xbox One X</a></li>
+                        <li><a href="#">Xbox One S</a></li>
+                        <li><a href="#">Surface Laptop</a></li>
+                        <li><a href="#">Windows 10 apps</a></li>
+                        <li><a href="#">Office apps</a></li>
+                        <li><a href="#">Mixer</a></li>
+                    </ul>              
+                </li>
+                <li>
+                    <ul>
+                        <li><a class="boldTxt" href="#">Store & Support</a></li>
+                        <li><a href="#">Account profile</a></li>
+                        <li><a href="#">Download Center</a></li>
+                        <li><a href="#">Sales & support</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Order tracking</a></li>
+                        <li><a href="#">Store locations</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>              
+                </li>
+                <li>
+                          <ul>
+                            <li><a class="boldTxt" href="#">Education</a></li>
+                            <li><a href="#">Microsoft in education</a></li>
+                            <li><a href="#">Office for Students</a></li>
+                            <li><a href="#">Office 365 for schools</a></li>
+                            <li><a href="#">Deals for students &educators</a></li>
+                            <li><a href="#">Microsoft Azure in education</a></li>
+                          </ul>              
+                        </li>
+                        <li>
+                          <ul>
+                            <li><a class="boldTxt" href="#">Enterprise</a></li>
+                            <li><a href="#">Microsoft Azure</a></li>
+                            <li><a href="#">Enterprise</a></li>
+                            <li><a href="#">Small & midsize buiznesses</a></li>
+                            <li><a href="#">Find a solution provider</a></li>
+                            <li><a href="#">Microsoft partner resources</a></li>
+                            <li><a href="#">Microsoft App Source</a></li>
+                            <li><a href="#">Manufacturing & resources</a></li>
+                            <li><a href="#">Financial services</a></li>
+                          </ul>              
+                        </li>
+                        <li>
+                          <ul>
+                            <li><a class="boldTxt" href="#">Developer</a></li>
+                            <li><a href="#">Mircosoft Visual Studio</a></li>
+                            <li><a href="#">Windows Dev Center</a></li>
+                            <li><a href="#">Microsoft Developer Network</a></li>
+                            <li><a href="#">TechNet</a></li>
+                            <li><a href="#">Microsoft Virtual Academy</a></li>
+                            <li><a href="#">Micrsoft developer program</a></li>
+                            <li><a href="#">Channel 9</a></li>
+                            <li><a href="#">Office DevCenter</a></li>
+                          </ul>              
+                        </li>
+                        <li>
+                          <ul>
+                            <li><a class="boldTxt" href="#">Company</a></li>
+                            <li><a href="#">About Microsoft</a></li>
+                            <li><a href="#">Company news</a></li>
+                            <li><a href="#">Privacy at Microsoft</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Divercity and inclusion</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Security</a></li>
+                          </ul>              
+                        </li>
+                </ul>
+        </footer>
+
+    </body>
+</html>

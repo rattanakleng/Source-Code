@@ -1,0 +1,9 @@
+.width100 { width: 100%; }
+.width75 { width: 75%; }
+.width50 { width: 50%; }
+.floatLeft { float: left; display: inline; }
+.floatRight { float: right; display: inline; }
+.alignLeft { text-align: left; }
+.alignRight { text-align: right; }
+
+

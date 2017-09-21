@@ -1,0 +1,44 @@
+/* .contentWrapper {
+    margin: auto;
+} */
+
+header {
+    width: 85%;
+    height: 80px;
+    margin: auto;
+    margin-top: 15px;
+}
+section, footer {
+    width: 85%;
+    margin: auto;
+}
+
+/* button */
+.btn {
+    background: none;
+    border: none;
+}
+
+/*dropdown content */
+/* .dropdown:hover {
+    background: #999999;
+} */
+.dropdownContent {
+    display: none;
+    display: block;
+    background: #eaeaea;
+    position: absolute;
+}
+.dropdownContent:hover {
+    background: #999999;
+}
+/* Wrapper */
+.contentWrapper {
+    width: 90%;    
+}
+h1 {
+    font-family: segoeui;
+}
+p, span {
+    font-family: segoeuiLight;
+}
