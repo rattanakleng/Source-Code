@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height:100%;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #1a1a1a;
+  overflow: hidden;
+}
+
+.linkedLogo {
+  width: 1.3em;
+}
+
+.content {
+  padding: 20px 0 20px 20px;
+}
+
+nav {
+  /* background: linear-gradient(to top, #515C6B,#515C6B ); */
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+  border: 5px solid transparent;
+  color: #1a1a1a;
+  height: 60px;  
+  position: relative;
+}
+
+nav #subNav {
+  width: 200px;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  background: #cccccc;
+}
+
+nav #subNav li {
+  display: block;
+}
+
+nav li[active],
+nav li:hover,
+nav li:focus {				
+  border-bottom: 3px solid #41abff;
+  color: #41abff;
+  cursor: pointer;
+}
+
+.leftNavigation {
+  min-height: 100vh;
+  border-right: 3px solid #41abff;
+  padding-right: 30px;
+  word-wrap: break-word;
+}
+
+.leftNavigation h1 {
+  font-size: 3.5em;
+  color: #41abff;
+}
+h1.c-heading-1, h3.c-heading-4 {
+  display: block;
+  float: right;
+}
+h3.c-heading-4 {
+  padding-top: 10px;
+}
+
+#resume {
+  overflow: auto;  
+  height: 900px;
+  padding-bottom: 60px;
+
+}
+
+.c-heading-2 {
+  font-size: 
+}
+
+#resume .summary li {
+  font-size: 24px;  
+}
+
+#resume h3 {
+  text-decoration: underline;
+  color: #41abff;
+}
+
+#resume h4 {
+  margin-bottom: 20px;
+}
+
+#resume ol {
+  list-style-type: disc;
+}
+
+#resume ol li{
+  font-size: 16px;
+  line-height: 30px;
+  list-style-position: inside;
+}
+
+.c-carousel > .c-group {
+  bottom: -60px;
+}
+
+/* .theme-dark .c-sequence-indicator a:before, .theme-dark .c-sequence-indicator button:before, .theme-light .theme-dark .c-sequence-indicator a:before, .theme-light .theme-dark .c-sequence-indicator button:before {
+  border-color: #1a1a1a;
+} */
